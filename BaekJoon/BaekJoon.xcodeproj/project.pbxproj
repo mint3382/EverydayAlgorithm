@@ -59,6 +59,9 @@
 		925509242B36E783002D94B0 /* BaekJoon */ = {
 			isa = PBXGroup;
 			children = (
+				925509312B36F5BB002D94B0 /* 골드 */,
+				925509302B36F5B3002D94B0 /* 실버 */,
+				9255092F2B36F5A7002D94B0 /* 브론즈 */,
 				9255092E2B36F36C002D94B0 /* 대회 */,
 				925509252B36E783002D94B0 /* main.swift */,
 			);
@@ -72,6 +75,30 @@
 			);
 			name = "대회";
 			path = "대회";
+			sourceTree = "<group>";
+		};
+		9255092F2B36F5A7002D94B0 /* 브론즈 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "브론즈";
+			path = "브론즈";
+			sourceTree = "<group>";
+		};
+		925509302B36F5B3002D94B0 /* 실버 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "실버";
+			path = "실버";
+			sourceTree = "<group>";
+		};
+		925509312B36F5BB002D94B0 /* 골드 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "골드";
+			path = "골드";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
