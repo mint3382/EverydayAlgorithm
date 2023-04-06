@@ -5,7 +5,6 @@
 //  Created by minsong kim on 12/23/23.
 //
 
-//배열
 //숫자의 개수
 //import Foundation
 //let a = readLine()!
@@ -32,3 +31,16 @@
 //    print(count, terminator: " ")
 //}
 
+//개수 세기
+//let N = readLine()!
+//let arr = readLine()!.split(separator: " ")
+//let v = readLine()!
+//var count = 0
+//
+//for i in arr {
+//    if v == String(i) {
+//        count += 1
+//    }
+//}
+//
+//print(count)
