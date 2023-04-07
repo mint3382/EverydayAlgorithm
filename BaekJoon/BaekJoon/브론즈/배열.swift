@@ -44,3 +44,29 @@
 //}
 //
 //print(count)
+
+//방 배정
+//import Foundation
+//let condition = readLine()!.split(separator: " ")
+//let N = Int(condition[0])!
+//let K = Double(condition[1])!
+//
+//var students = [[Int]](repeating: [Int](repeating: 0, count: 6), count: 2)
+//var count = 0
+//
+//for _ in 1...N {
+//    let student = readLine()!.split(separator: " ")
+//    
+//    if String(student[0]) == "0" {
+//        students[0][Int(student[1])! - 1] += 1
+//    } else {
+//        students[1][Int(student[1])! - 1] += 1
+//    }
+//}
+//
+//for i in 0...5 {
+//    count += Int(ceil(Double(students[0][i]) / K))
+//    count += Int(ceil(Double(students[1][i]) / K))
+//}
+//
+//print(count)
