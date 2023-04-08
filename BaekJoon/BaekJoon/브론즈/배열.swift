@@ -70,3 +70,17 @@
 //}
 //
 //print(count)
+
+//Strfry
+//import Foundation
+//let N = Int(readLine()!)!
+//
+//for _ in 1...N {
+//    let testCase = readLine()!.split(separator: " ")
+//    
+//    if testCase[0].sorted() == testCase[1].sorted() {
+//        print("Possible")
+//    } else {
+//        print("Impossible")
+//    }
+//}
