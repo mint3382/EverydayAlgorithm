@@ -84,3 +84,20 @@
 //        print("Impossible")
 //    }
 //}
+
+//애너그램 만들기
+//import Foundation
+//let firstWord = readLine()!
+//var secondWord = readLine()!
+//
+//var arr: [String] = []
+//
+//for i in firstWord {
+//    if secondWord.contains(i) {
+//        secondWord.remove(at: secondWord.firstIndex(of: i)!)
+//    } else {
+//        arr.append(String(i))
+//    }
+//}
+//
+//print(arr.count + secondWord.count)
