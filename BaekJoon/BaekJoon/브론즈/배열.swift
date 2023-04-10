@@ -101,3 +101,29 @@
 //}
 //
 //print(arr.count + secondWord.count)
+
+//공 바꾸기
+//import Foundation
+//let NM = readLine()!.split(separator: " ")
+//let n = Int(NM[0])!
+//let m = Int(NM[1])!
+//
+//var basket = [Int](repeating: 0, count: n)
+//
+//for i in 0...(n - 1) {
+//    basket[i] = i + 1
+//}
+//
+//for _ in 1...m {
+//    let IJ = readLine()!.split(separator: " ")
+//    let i = Int(IJ[0])!
+//    let j = Int(IJ[1])!
+//    guard i != j else {
+//        continue
+//    }
+//    basket.swapAt(i - 1, j - 1)
+//}
+//
+//for i in basket {
+//    print(i, terminator: " ")
+//}
