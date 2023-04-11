@@ -127,3 +127,15 @@
 //for i in basket {
 //    print(i, terminator: " ")
 //}
+
+//나머지
+//var numbers: Set<Int> = []
+//
+//for _ in 1...10 {
+//    let number = Int(readLine()!)!
+//    
+//    numbers.insert(number % 42)
+//}
+//
+//print(numbers.count)
+
