@@ -139,3 +139,31 @@
 //
 //print(numbers.count)
 
+//바구니 뒤집기
+//import Foundation
+//let NM = readLine()!.split(separator: " ")
+//let n = Int(NM[0])!
+//let m = Int(NM[1])!
+//
+//var basket = [Int](repeating: 0, count: n)
+//
+//for i in 0...(n - 1) {
+//    basket[i] = i + 1
+//}
+//
+//for _ in 1...m {
+//    let IJ = readLine()!.split(separator: " ")
+//    let i = Int(IJ[0])!
+//    let j = Int(IJ[1])!
+//    guard i != j else {
+//        continue
+//    }
+//    
+//    for index in i...((j + i) / 2) {
+//        basket.swapAt(index - 1, j + i - index - 1)
+//    }
+//}
+//
+//for i in basket {
+//    print(i, terminator: " ")
+//}
