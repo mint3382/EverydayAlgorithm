@@ -167,3 +167,15 @@
 //for i in basket {
 //    print(i, terminator: " ")
 //}
+
+//평균
+//let N = Double(readLine()!)!
+//let scores = readLine()!.split(separator: " ").compactMap { Double($0)! }
+//let max = scores.max()!
+//var sum = 0.0
+//
+//for i in scores {
+//    sum += (i / max * 100)
+//}
+//
+//print(sum / N)
