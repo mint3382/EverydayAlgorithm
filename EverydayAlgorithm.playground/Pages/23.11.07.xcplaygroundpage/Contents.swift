@@ -2,7 +2,7 @@
 
 import Foundation
 
-//두수의 합
+//백준_두수의 합
 let n = readLine()!
 var arr = readLine()!.split(separator: " ").sorted()
 let x = Int(readLine()!)!
