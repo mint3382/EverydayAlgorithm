@@ -89,3 +89,28 @@
 //print(firstAnswer(q: q, p: p))
 //print(secondAnswer(q: q, p: p))
 //
+
+//진주로 가자!
+//let number = Int(readLine()!)!
+//var array = [Int]()
+//var answer = 0
+//var count = 0
+//
+//for _ in 1...number {
+//    let ticket = readLine()!.split(separator: " ")
+//
+//    if ticket[0] == "jinju" {
+//        answer = Int(ticket[1])!
+//    } else {
+//        array.append(Int(ticket[1])!)
+//    }
+//}
+//
+//for i in array {
+//    if i > answer {
+//        count += 1
+//    }
+//}
+//
+//print(answer)
+//print(count)
