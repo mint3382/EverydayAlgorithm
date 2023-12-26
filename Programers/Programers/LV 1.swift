@@ -27,3 +27,18 @@ func 콜라츠_추측(_ num:Int) -> Int {
     
     return count
 }
+
+//핸드폰 번호 가리기
+func 핸드폰_번호_가리기(_ phone_number:String) -> String {
+    var answer = ""
+    var count = 1
+    for i in phone_number {
+        if count < phone_number.count - 3 {
+            answer += "*"
+        } else {
+            answer += String(i)
+        }
+        count += 1
+    }
+    return answer
+}
