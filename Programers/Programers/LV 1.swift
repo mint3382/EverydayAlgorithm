@@ -42,3 +42,18 @@ func 핸드폰_번호_가리기(_ phone_number:String) -> String {
     }
     return answer
 }
+
+//직사각형 별찍기
+
+func 직사각형_별찍기() {
+    let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+    let (a, b) = (n[0], n[1])
+    var answer = ""
+    let star = String(repeating: "*", count: a)
+
+    for _ in 1...b {
+        answer += "\(star)\n"
+    }
+
+    print(answer)
+}
