@@ -7,6 +7,46 @@
 
 import Foundation
 
+func 별찍기10() {
+    let n = Int(readLine()!)!
+    var board = [[String]](repeating: [String](repeating: "*", count: n), count: n)
+    
+    func recursive(width: Int, row: Int, col: Int) {
+        if width == 3 {
+            board[row + 1][col + 1] = " "
+            return
+        }
+    
+        let third = width / 3
+    
+        for i in row + third...(row + (third * 2)) - 1 {
+            for j in col + third...(col + (third * 2)) - 1 {
+                board[i][j] = " "
+            }
+        }
+    
+        recursive(width: third, row: row, col: col)
+        recursive(width: third, row: row, col: col + third)
+        recursive(width: third, row: row, col: col + (third * 2))
+        recursive(width: third, row: row + third, col: col)
+        recursive(width: third, row: row + third, col: col + (third * 2))
+        recursive(width: third, row: row + (third * 2), col: col)
+        recursive(width: third, row: row + (third * 2), col: col + third)
+        recursive(width: third, row: row + (third * 2), col: col + (third * 2))
+    }
+    
+    recursive(width: n, row: 0, col: 0)
+    
+    var answer = ""
+    
+    for i in board {
+        answer += i.joined()
+        answer += "\n"
+    }
+    
+    print(answer)
+}
+
 func 별찍기11() {
     let n = Int(readLine()!)!
     
