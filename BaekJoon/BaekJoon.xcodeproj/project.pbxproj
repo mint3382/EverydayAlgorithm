@@ -12,6 +12,7 @@
 		925509332B36F735002D94B0 /* 배열.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925509322B36F735002D94B0 /* 배열.swift */; };
 		925509352B36F750002D94B0 /* 배열(실버).swift in Sources */ = {isa = PBXBuildFile; fileRef = 925509342B36F750002D94B0 /* 배열(실버).swift */; };
 		92E1AB522B3EF75A00FCBF75 /* 재귀(골드).swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1AB512B3EF75A00FCBF75 /* 재귀(골드).swift */; };
+		92E1AB542B41A83A00FCBF75 /* 재귀(실버).swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1AB532B41A83A00FCBF75 /* 재귀(실버).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		925509322B36F735002D94B0 /* 배열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열.swift"; sourceTree = "<group>"; };
 		925509342B36F750002D94B0 /* 배열(실버).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열(실버).swift"; sourceTree = "<group>"; };
 		92E1AB512B3EF75A00FCBF75 /* 재귀(골드).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "재귀(골드).swift"; sourceTree = "<group>"; };
+		92E1AB532B41A83A00FCBF75 /* 재귀(실버).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "재귀(실버).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				925509342B36F750002D94B0 /* 배열(실버).swift */,
+				92E1AB532B41A83A00FCBF75 /* 재귀(실버).swift */,
 			);
 			name = "실버";
 			path = "실버";
@@ -171,6 +174,7 @@
 				9255092D2B36F35E002D94B0 /* 첫번째 나들이.swift in Sources */,
 				925509352B36F750002D94B0 /* 배열(실버).swift in Sources */,
 				925509332B36F735002D94B0 /* 배열.swift in Sources */,
+				92E1AB542B41A83A00FCBF75 /* 재귀(실버).swift in Sources */,
 				92E1AB522B3EF75A00FCBF75 /* 재귀(골드).swift in Sources */,
 				925509262B36E783002D94B0 /* main.swift in Sources */,
 			);
