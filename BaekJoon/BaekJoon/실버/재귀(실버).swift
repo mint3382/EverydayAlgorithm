@@ -63,3 +63,50 @@ func 색종이_만들기() {
     print(whitePaper)
     print(bluePaper)
 }
+
+func 쿼드트리() {
+    let input = Int(readLine()!)!
+    var range = [[Int]](repeating: [], count: input)
+    var answer = ""
+    
+    for i in 0...input - 1 {
+        let line = readLine()!.compactMap { Int(String($0)) }
+    
+        range[i] = line
+    }
+    
+    func isSame(width: Int, row: Int, col: Int) -> Bool {
+        let first = range[row][col]
+        for i in row...row + width - 1 {
+            for j in col...col + width - 1 {
+                if range[i][j] != first {
+                    return false
+                }
+            }
+        }
+    
+        return true
+    }
+    
+    func recursive(width: Int, row: Int, col: Int) {
+        if isSame(width: width, row: row, col: col) {
+            if range[row][col] == 0 {
+                answer += "0"
+            } else {
+                answer += "1"
+            }
+            return
+        }
+        answer += "("
+        let half = width / 2
+    
+        recursive(width: half, row: row, col: col)
+        recursive(width: half, row: row, col: col + half)
+        recursive(width: half, row: row + half, col: col)
+        recursive(width: half, row: row + half, col: col + half)
+        answer += ")"
+    }
+    
+    recursive(width: input, row: 0, col: 0)
+    print(answer)
+}
