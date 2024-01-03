@@ -7,6 +7,39 @@
 
 import Foundation
 
+func N과M11() {
+    let input = readLine()!.split(separator: " ").compactMap { Int($0) }
+    let input2 = readLine()!.split(separator: " ").compactMap { Int($0) }
+    var arraySet = Set<Int>()
+    var array = [String]()
+    for i in input2 {
+        arraySet.insert(i)
+    }
+    for i in arraySet.sorted() {
+        array.append(String(i))
+    }
+    var result = [String]()
+    var answer = [String]()
+
+    func recursive() {
+        if result.count == input[1] {
+            let numbers = result.joined(separator: " ")
+            answer.append(numbers)
+            return
+        }
+
+        for i in 0...array.count - 1 {
+            result.append(array[i])
+            recursive()
+            result.removeLast()
+        }
+    }
+
+    recursive()
+
+    print(answer.joined(separator: "\n"))
+}
+
 func 부분수열의_합() {
     let input = readLine()!.split(separator: " ").compactMap { Int($0) }
     let array = readLine()!.split(separator: " ").compactMap { Int($0) }
