@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92459C662B4AED5700495940 /* 백트래킹(실버).swift in Sources */ = {isa = PBXBuildFile; fileRef = 92459C652B4AED5700495940 /* 백트래킹(실버).swift */; };
 		925509262B36E783002D94B0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925509252B36E783002D94B0 /* main.swift */; };
 		9255092D2B36F35E002D94B0 /* 첫번째 나들이.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9255092C2B36F35E002D94B0 /* 첫번째 나들이.swift */; };
 		925509332B36F735002D94B0 /* 배열.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925509322B36F735002D94B0 /* 배열.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		92459C652B4AED5700495940 /* 백트래킹(실버).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "백트래킹(실버).swift"; sourceTree = "<group>"; };
 		925509222B36E783002D94B0 /* BaekJoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaekJoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		925509252B36E783002D94B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9255092C2B36F35E002D94B0 /* 첫번째 나들이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "첫번째 나들이.swift"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				925509342B36F750002D94B0 /* 배열(실버).swift */,
 				92E1AB532B41A83A00FCBF75 /* 재귀(실버).swift */,
+				92459C652B4AED5700495940 /* 백트래킹(실버).swift */,
 			);
 			name = "실버";
 			path = "실버";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9255092D2B36F35E002D94B0 /* 첫번째 나들이.swift in Sources */,
+				92459C662B4AED5700495940 /* 백트래킹(실버).swift in Sources */,
 				925509352B36F750002D94B0 /* 배열(실버).swift in Sources */,
 				925509332B36F735002D94B0 /* 배열.swift in Sources */,
 				92E1AB542B41A83A00FCBF75 /* 재귀(실버).swift in Sources */,
