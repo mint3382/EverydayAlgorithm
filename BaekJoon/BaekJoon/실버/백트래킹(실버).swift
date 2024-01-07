@@ -40,6 +40,31 @@ func N과M11() {
     print(answer.joined(separator: "\n"))
 }
 
+func N과M12() {
+    let input = readLine()!.split(separator: " ").compactMap { Int($0) }
+    let array = Set(readLine()!.split(separator: " ").compactMap { Int($0) }).sorted()
+    var result = [String]()
+    var answer = [String]()
+
+    func recursive(start: Int) {
+        if result.count == input[1] {
+            let numbers = result.joined(separator: " ")
+            answer.append(numbers)
+            return
+        }
+
+        for i in start...array.count - 1 {
+            result.append(String(array[i % array.count]))
+            recursive(start: i)
+            result.removeLast()
+        }
+    }
+
+    recursive(start: 0)
+
+    print(answer.joined(separator: "\n"))
+}
+
 func 부분수열의_합() {
     let input = readLine()!.split(separator: " ").compactMap { Int($0) }
     let array = readLine()!.split(separator: " ").compactMap { Int($0) }
